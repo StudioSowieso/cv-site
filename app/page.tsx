@@ -216,11 +216,18 @@ export default function Page() {
                 <li key={job.company} className="exp" data-node="">
                   <Reveal delay={i * 90}>
                     <article className="exp__card">
-                      <span className="logo">
-                        <Image src={job.logo} alt="" width={96} height={96} />
+                      <span className={job.logo ? "logo" : "logo logo--text"}>
+                        {job.logo ? (
+                          <Image src={job.logo} alt="" width={96} height={96} />
+                        ) : (
+                          <span aria-hidden="true">{job.initials ?? job.company.slice(0, 2)}</span>
+                        )}
                       </span>
                       <div className="exp__text">
-                        <p className="exp__role">{job.role}</p>
+                        <p className="exp__role">
+                          {job.role}
+                          {job.via ? ` via ${job.via}` : ""}
+                        </p>
                         <h3 className="exp__company">{job.company}</h3>
                       </div>
                       <div className="exp__meta">

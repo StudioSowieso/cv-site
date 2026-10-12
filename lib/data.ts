@@ -99,13 +99,25 @@ export const projects: Project[] = [
 export type Job = {
   role: string;
   company: string;
+  via?: string;
   period: string;
   location: string;
-  logo: string;
+  /** Pad naar het logo in /public; zonder logo tonen we de initialen. */
+  logo?: string;
+  initials?: string;
   current?: boolean;
 };
 
 export const experience: Job[] = [
+  {
+    role: "Front-end Developer",
+    company: "Hollandsnieuwe",
+    via: "ilionx",
+    period: "Sep 2024 – Heden",
+    location: "Maastricht Airport",
+    initials: "HN",
+    current: true,
+  },
   {
     role: "Front-end Developer & UX/UI Designer",
     company: "Scala",
