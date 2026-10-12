@@ -70,7 +70,7 @@ export const projects: Project[] = [
     slug: "ben-goossens",
     title: "Ben Goossens website",
     description: "De website van een autogarage in Zuid-Limburg, gespecialiseerd in Volvo en Saab. Ik verzorgde het design en de development.",
-    image: "/img/ben-goossens.jpg",
+    image: "/img/ben-goossens-website.jpg",
     imageAlt: "De website van Ben Goossens getoond op een iMac",
     fit: "contain",
     position: "50% 50%",
@@ -83,7 +83,7 @@ export const projects: Project[] = [
     title: "Jeugdlintje Gemeente Maastricht",
     description:
       "Een campagne voor het Jeugdlintje van Gemeente Maastricht, met onder meer branding, strategie en foto en video.",
-    image: "/img/jeugdlintje.jpg",
+    image: "/img/jeugdlintje-campagne.jpg",
     imageAlt: "Het logo van het Jeugdlintje op een doek op het Vrijthof in Maastricht",
     fit: "cover",
     position: "50% 42%",
