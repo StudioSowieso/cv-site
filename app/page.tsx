@@ -76,10 +76,10 @@ export default function Page() {
                 <div className="hero__intro">
                   <span className="avatar">
                     <Image
-                      src="/img/sabien.jpg"
+                      src="/img/sabien-profiel.jpg"
                       alt="Portret van Sabien Douven"
-                      width={414}
-                      height={414}
+                      width={640}
+                      height={640}
                       priority
                     />
                   </span>
