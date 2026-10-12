@@ -216,7 +216,11 @@ export default function Page() {
                 <li key={job.company} className="exp" data-node="">
                   <Reveal delay={i * 90}>
                     <article className="exp__card">
-                      <span className={job.logo ? "logo" : "logo logo--text"}>
+                      <span
+                        className={
+                          !job.logo ? "logo logo--text" : job.logoFit === "contain" ? "logo logo--contain" : "logo"
+                        }
+                      >
                         {job.logo ? (
                           <Image src={job.logo} alt="" width={96} height={96} />
                         ) : (

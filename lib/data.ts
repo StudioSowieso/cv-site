@@ -104,6 +104,8 @@ export type Job = {
   location: string;
   /** Pad naar het logo in /public; zonder logo tonen we de initialen. */
   logo?: string;
+  /** 'contain' toont het hele logo op een witte tegel (voor niet-vierkante logo's). */
+  logoFit?: "cover" | "contain";
   initials?: string;
   current?: boolean;
 };
@@ -115,7 +117,8 @@ export const experience: Job[] = [
     via: "ilionx",
     period: "Sep 2024 – Heden",
     location: "Maastricht Airport",
-    initials: "HN",
+    logo: "/img/logos/ilionx.png",
+    logoFit: "contain",
     current: true,
   },
   {
