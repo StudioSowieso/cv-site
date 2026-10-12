@@ -59,10 +59,10 @@ export const projects: Project[] = [
     title: "Visit Zuid-Limburg Experience quiz",
     description:
       "Een interactieve quiz met vragen over de omgeving waar ik verantwoordelijk was voor het design en Front-end development.",
-    image: "/img/quiz.jpg",
-    imageAlt: "Twee bezoekers spelen de interactieve quiz op een tablet",
+    image: "/img/quiz-visit-zuid-limburg.jpg",
+    imageAlt: "Een bezoeker speelt de interactieve quiz op een tablet naast een groot scherm",
     fit: "cover",
-    position: "60% 50%",
+    position: "50% 78%",
     tone: "#f3e6bd",
     size: "narrow",
   },
