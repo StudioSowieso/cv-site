@@ -333,17 +333,6 @@ export default function Page() {
               <ul className="facts">
                 <li className="fact">
                   <span className="fact__icon">
-                    <Icon name="globe" size={20} />
-                  </span>
-                  <div>
-                    <span className="fact__label">Website</span>
-                    <span className="fact__value">
-                      <a href={profile.website.href}>{profile.website.label}</a>
-                    </span>
-                  </div>
-                </li>
-                <li className="fact">
-                  <span className="fact__icon">
                     <Icon name="pin" size={20} />
                   </span>
                   <div>
