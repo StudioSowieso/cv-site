@@ -161,11 +161,13 @@ export const skillGroups: SkillGroup[] = [
     skills: [
       "Vue JS",
       "React",
+      "React Native",
       "Nuxt",
+      "Next.js",
       "TailwindCSS",
-      "Figma",
       "WordPress",
       "RESTful API",
+      "GraphQL",
       "HTML",
       "CSS",
       "JS",
@@ -177,6 +179,7 @@ export const skillGroups: SkillGroup[] = [
     icon: "palette",
     skills: [
       "Adobe Creative Cloud",
+      "Figma",
       "User Experience",
       "Wireframing",
       "Prototyping",
@@ -188,7 +191,7 @@ export const skillGroups: SkillGroup[] = [
     id: "ai",
     title: "AI-ondersteund werken",
     icon: "sparkle",
-    note: "Dagelijks in gebruik: code reviewen, tickets refinen en laten uitvoeren, tests schrijven en kleine webapps bouwen, zoals deze site.",
+    note: "Dagelijks zet ik AI in om code te reviewen, tickets te refinen en uit te voeren, tests te schrijven en kleine webapps te bouwen, zoals deze site.",
     skills: [
       "Claude",
       "GitHub Copilot",
