@@ -46,7 +46,7 @@ export const projects: Project[] = [
     title: "Self Consulting Terminal",
     description:
       "Een kiosk in apotheken waar je in een ‘fast lane’ je producten kunt bestellen. Ik was bij Scala verantwoordelijk voor de UI/UX en de Front-end development van dit project.",
-    image: "/img/pharmacy.jpg",
+    image: "/img/pharmacy-terminal.jpg",
     imageAlt:
       "Ontwerp van de Self Consulting Terminal: een kiosk met het scherm van Pharmacy Solution",
     fit: "contain",
