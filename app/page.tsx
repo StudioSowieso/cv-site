@@ -89,6 +89,7 @@ export default function Page() {
                   </span>
                 </div>
 
+                <div className="framebox">
                 <div className="frame">
                   <h1 id="hero-title" className="name">
                     <span className="sr-only">{profile.name}</span>
@@ -116,6 +117,7 @@ export default function Page() {
                     <CursorArrow />
                     <b className="cursor__label">Design</b>
                   </span>
+                </div>
                 </div>
 
                 <p className="hero__role">
