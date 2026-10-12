@@ -259,7 +259,11 @@ export default function Page() {
 
             <div className="skills">
               {skillGroups.map((group, g) => (
-                <Reveal key={group.id} delay={g * 120}>
+                <Reveal
+                  key={group.id}
+                  delay={g * 120}
+                  className={group.id === "ai" ? "skills__cell--wide" : ""}
+                >
                   <div className={`skillgroup skillgroup--${group.id}`}>
                     <h3 className="skillgroup__head">
                       <span className="skillgroup__icon">
@@ -267,6 +271,7 @@ export default function Page() {
                       </span>
                       {group.title}
                     </h3>
+                    {group.note && <p className="skillgroup__note">{group.note}</p>}
                     <ul className="chips">
                       {group.skills.map((skill, i) => (
                         <li key={skill} className="chip" style={{ "--n": i } as CSSProperties}>

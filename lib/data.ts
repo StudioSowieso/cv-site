@@ -149,6 +149,7 @@ export type SkillGroup = {
   id: string;
   title: string;
   icon: IconName;
+  note?: string;
   skills: string[];
 };
 
@@ -181,6 +182,21 @@ export const skillGroups: SkillGroup[] = [
       "Prototyping",
       "Testing",
       "Design System",
+    ],
+  },
+  {
+    id: "ai",
+    title: "AI-ondersteund werken",
+    icon: "sparkle",
+    note: "Dagelijks in gebruik: code reviewen, tickets refinen en laten uitvoeren, tests schrijven en kleine webapps bouwen, zoals deze site.",
+    skills: [
+      "Claude",
+      "GitHub Copilot",
+      "Code reviews",
+      "Tickets refinen",
+      "AI skills",
+      "Tests schrijven",
+      "Webapps bouwen",
     ],
   },
 ];

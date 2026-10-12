@@ -1230,6 +1230,29 @@ html:not(.js) .timeline {
   color: var(--violet-deep);
 }
 
+.skillgroup--ai .skillgroup__icon {
+  background: var(--peach);
+  color: #8a3b1c;
+}
+
+.skillgroup--ai .chip:hover {
+  background: var(--peach);
+  border-color: var(--peach);
+  color: var(--ink);
+}
+
+.skillgroup__note {
+  max-width: 46rem;
+  margin: -0.6rem 0 1.4rem;
+  color: var(--ink-2);
+}
+
+@media (min-width: 900px) {
+  .skills__cell--wide {
+    grid-column: 1 / -1;
+  }
+}
+
 .skillgroup--design .skillgroup__icon {
   background: #dff3e6;
   color: #1b6a47;
