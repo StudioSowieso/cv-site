@@ -132,7 +132,7 @@ export const experience: Job[] = [
     role: "Co-owner | Web developer & Designer",
     company: "Studio Sowieso",
     period: "Mrt 2020 – Heden",
-    location: "Maastricht",
+    location: "Beek",
     logo: "/img/logos/sowieso.png",
     current: true,
   },
