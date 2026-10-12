@@ -113,7 +113,7 @@ export type Job = {
 export const experience: Job[] = [
   {
     role: "Front-end Developer",
-    company: "Hollandsnieuwe",
+    company: "hollandsnieuwe",
     via: "ilionx",
     period: "Sep 2024 – Heden",
     location: "Maastricht Airport",
