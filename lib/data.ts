@@ -45,7 +45,7 @@ export const projects: Project[] = [
     slug: "self-consulting-terminal",
     title: "Self Consulting Terminal",
     description:
-      "Een kiosk in apotheken waar je in een ‘fast lane’ je producten kunt bestellen. Ik was bij Scala verantwoordelijk voor de UI/UX en de Front-end development van dit project.",
+      "Een kiosk in de apotheek waarmee klanten via een ‘fast lane’ snel zelf hun producten bestellen. Bij Scala ontwierp ik de interface en gebruikservaring en bouwde ik de front-end.",
     image: "/img/pharmacy-terminal.jpg",
     imageAlt:
       "Ontwerp van de Self Consulting Terminal: een kiosk met het scherm van Pharmacy Solution",
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     slug: "visit-zuid-limburg-quiz",
     title: "Visit Zuid-Limburg Experience quiz",
     description:
-      "Een interactieve quiz met vragen over de omgeving waar ik verantwoordelijk was voor het design en Front-end development.",
+      "Een interactieve quiz op tablets waarmee bezoekers ontdekken hoeveel ze weten over Zuid-Limburg. Ik deed het design en bouwde de front-end.",
     image: "/img/quiz-visit-zuid-limburg.jpg",
     imageAlt: "Een bezoeker speelt de interactieve quiz op een tablet naast een groot scherm",
     fit: "cover",
@@ -69,7 +69,7 @@ export const projects: Project[] = [
   {
     slug: "ben-goossens",
     title: "Ben Goossens website",
-    description: "Een website voor een autogarage. Design en web development.",
+    description: "De website van een autogarage in Zuid-Limburg, gespecialiseerd in Volvo en Saab. Ik verzorgde het design en de development.",
     image: "/img/ben-goossens.jpg",
     imageAlt: "De website van Ben Goossens getoond op een iMac",
     fit: "contain",
@@ -82,7 +82,7 @@ export const projects: Project[] = [
     slug: "jeugdlintje",
     title: "Jeugdlintje Gemeente Maastricht",
     description:
-      "Campagne voor het jeugdlintje met o.a. een branding, strategie en foto/video.",
+      "Een campagne voor het Jeugdlintje van Gemeente Maastricht, met onder meer branding, strategie en foto en video.",
     image: "/img/jeugdlintje.jpg",
     imageAlt: "Het logo van het Jeugdlintje op een doek op het Vrijthof in Maastricht",
     fit: "cover",
